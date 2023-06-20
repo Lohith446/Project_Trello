@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 19 18:41:56 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>252 seconds (252455 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.trello.Project.endtoend.TrelloBoard.TrelloCreateMultipleListAndSwapInCreatedBoard()'><b>TrelloCreateMultipleListAndSwapInCreatedBoard</b><br>Test class: com.trello.Project.endtoend.TrelloBoard<br/>
+<a href="#Output-2133359512" onClick='toggleBox("Output-2133359512", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2133359512" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2133359512">
+Title = Log in to Trello<br/>
+URL = https://trello.com/login<br/>
+Title = Log in to continue - Log in with Atlassian account<br/>
+URL = https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%252F%26display%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D649054dd5f52823c38cc7291587ce7d3%26ssoVerified%3D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D&email=lohith.n1997%40gmail.com&errorCode&login_hint=lohith.n1997%40gmail.com&restrict=true<br/>
+Title = Boards | Trello<br/>
+URL = https://trello.com/u/lohithn1997/boards<br/>
+LOGOUT IS ENABLE<br/>
+Create Board Button is Vissibale<br/>
+Title = Boards | Trello<br/>
+URL = https://trello.com/u/lohithn1997/boards<br/>
+Title = lohith.N | Trello<br/>
+Title = Log out of your Atlassian account - Log in with Atlassian account<br/>
+URL = https://id.atlassian.com/logout?continue=https%3A%2F%2Ftrello.com%2Flogout%3Fdsc%3D1b5a3cb08c20c2b0ba5af86eefff4f9476a03c41ac5db37a41e205c18bf6eb14<br/>
+Title = Manage Your Team’s Projects From Anywhere | Trello<br/>
+URL = https://trello.com/home<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>com.trello.Project.endtoend.TrelloBoard@35cabb2a</td></tr>
+<tr>
+<td title='com.trello.Project.endtoend.TrelloBoard.TrelloHomePageCheck()'><b>TrelloHomePageCheck</b><br>Test class: com.trello.Project.endtoend.TrelloBoard<br/>
+<a href="#Output-1823354445" onClick='toggleBox("Output-1823354445", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1823354445" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1823354445">
+Title = Manage Your Team’s Projects From Anywhere | Trello<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.trello.Project.endtoend.TrelloBoard@35cabb2a</td></tr>
+<tr>
+<td title='com.trello.Project.endtoend.TrelloBoard.LoginInToTrello()'><b>LoginInToTrello</b><br>Test class: com.trello.Project.endtoend.TrelloBoard<br/>
+<a href="#Output-66231846" onClick='toggleBox("Output-66231846", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-66231846" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-66231846">
+Title = Manage Your Team’s Projects From Anywhere | Trello<br/>
+Title = Log in to Trello<br/>
+URL = https://trello.com/login<br/>
+Title = Log in to continue - Log in with Atlassian account<br/>
+URL https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%252F%26display%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D6490543351b4aaedf99f2eb5d24c82e7%26ssoVerified%3D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D&email=lohith.n1997%40gmail.com&errorCode&login_hint=lohith.n1997%40gmail.com&restrict=true<br/>
+Title = Boards | Trello<br/>
+URL https://trello.com/u/lohithn1997/boards<br/>
+LOGOUT IS ENABLE<br/>
+Title = Log out of your Atlassian account - Log in with Atlassian account<br/>
+URL https://id.atlassian.com/logout?continue=https%3A%2F%2Ftrello.com%2Flogout%3Fdsc%3Df4e7d78ed5245859ba18017574c4d07c624723bf12f48af2e41e3df7c3e5c92c<br/>
+Title = Manage Your Team’s Projects From Anywhere | Trello<br/>
+URL = https://trello.com/home<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>com.trello.Project.endtoend.TrelloBoard@35cabb2a</td></tr>
+<tr>
+<td title='com.trello.Project.endtoend.TrelloBoard.TrelloCreateAndDeleteBoard()'><b>TrelloCreateAndDeleteBoard</b><br>Test class: com.trello.Project.endtoend.TrelloBoard<br/>
+<a href="#Output-1226858597" onClick='toggleBox("Output-1226858597", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1226858597" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1226858597">
+Title = Manage Your Team’s Projects From Anywhere | Trello<br/>
+Title = Log in to Trello<br/>
+URL = https://trello.com/login<br/>
+Title = Log in to continue - Log in with Atlassian account<br/>
+URL = https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%252F%26display%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D64905466d8dd4af72c940d16936e39d3%26ssoVerified%3D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D&email=lohith.n1997%40gmail.com&errorCode&login_hint=lohith.n1997%40gmail.com&restrict=true<br/>
+Title = Boards | Trello<br/>
+URL = https://trello.com/u/lohithn1997/boards<br/>
+LOGOUT IS ENABLE<br/>
+Create Board Button is Vissibale<br/>
+Title = lohith.N | Trello<br/>
+URL = https://trello.com/b/GwjQGUXm/lohithn<br/>
+Title = Log out of your Atlassian account - Log in with Atlassian account<br/>
+URL = https://id.atlassian.com/logout?continue=https%3A%2F%2Ftrello.com%2Flogout%3Fdsc%3D95c3f92a15a1b97d6c7ffffcfd1cf997c183eca9d3f8a6f5768d79677384e6f7<br/>
+Title = Manage Your Team’s Projects From Anywhere | Trello<br/>
+URL = https://trello.com/home<br/>
+</div>
+</td>
+<td></td>
+<td>51</td>
+<td>com.trello.Project.endtoend.TrelloBoard@35cabb2a</td></tr>
+<tr>
+<td title='com.trello.Project.endtoend.TrelloBoard.TrelloCreateListAndSwapInCreatedBoard()'><b>TrelloCreateListAndSwapInCreatedBoard</b><br>Test class: com.trello.Project.endtoend.TrelloBoard<br/>
+<a href="#Output-141154428" onClick='toggleBox("Output-141154428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-141154428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-141154428">
+Title = Manage Your Team’s Projects From Anywhere | Trello<br/>
+Title = Log in to Trello<br/>
+URL = https://trello.com/login<br/>
+Title = Log in to continue - Log in with Atlassian account<br/>
+URL = https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%252F%26display%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D649054a1b8b256871d4fcbcdda1b13cc%26ssoVerified%3D&display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D&email=lohith.n1997%40gmail.com&errorCode&login_hint=lohith.n1997%40gmail.com&restrict=true<br/>
+Title = Boards | Trello<br/>
+URL = https://trello.com/u/lohithn1997/boards<br/>
+LOGOUT IS ENABLE<br/>
+Create Board Button is Vissibale<br/>
+Title = Boards | Trello<br/>
+URL = https://trello.com/u/lohithn1997/boards<br/>
+Title = lohith.N | Trello<br/>
+Title = Log out of your Atlassian account - Log in with Atlassian account<br/>
+URL = https://id.atlassian.com/logout?continue=https%3A%2F%2Ftrello.com%2Flogout%3Fdsc%3Dcc1e7be2b3bb506d4eab30d48853ff2e7c4b68b8a73dc9d228864a1e186acaed<br/>
+Title = Manage Your Team’s Projects From Anywhere | Trello<br/>
+URL = https://trello.com/home<br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>com.trello.Project.endtoend.TrelloBoard@35cabb2a</td></tr>
+<tr>
+<td title='com.trello.Project.endtoend.TrelloBoard.TrelloHomePagelogin()'><b>TrelloHomePagelogin</b><br>Test class: com.trello.Project.endtoend.TrelloBoard<br/>
+<a href="#Output-1792113076" onClick='toggleBox("Output-1792113076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1792113076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1792113076">
+Title = Manage Your Team’s Projects From Anywhere | Trello<br/>
+Title = Log in to Trello<br/>
+URL https://trello.com/login<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.trello.Project.endtoend.TrelloBoard@35cabb2a</td></tr>
+</table><p>
+</body>
+</html>
